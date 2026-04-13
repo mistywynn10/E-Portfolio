@@ -1,0 +1,17 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="MW logo">
+  
+  <!-- Rounded square background -->
+  <rect x="10" y="10" width="220" height="220" rx="40" fill="black"></rect>
+
+  <!-- MW lines -->
+  <g fill="none" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    
+    <!-- M -->
+    <path d="M50 170 V70 L90 130 L130 70 V170"></path>
+
+    <!-- W -->
+    <path d="M130 70 L155 170 L180 110 L205 170 L230 70"></path>
+
+  </g>
+
+</svg>
