@@ -2,6 +2,19 @@
 // service_ytt0oop
 // user_WOscBdVwyZ4MhyaPW
 
+let isModalOpen = false;
+let contrastToggle = false;
+
+function toggleContrast() {
+    contrastToggle = !contrastToggle;
+    if (contrastToggle) {
+        document.body.classList += " dark-theme";
+    } 
+    else {
+        document.body.classList.remove("dark-theme");
+    }
+}
+
 function contact() {
     event.preventDefault();
     const loading = document.querySelector('.modal__overlay--loading');
@@ -24,7 +37,6 @@ function contact() {
         })
 }
 
-let isModalOpen = false;
 function toggleModal() {
     if (isModalOpen) {
         isModalOpen = false;
