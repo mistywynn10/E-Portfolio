@@ -26,7 +26,7 @@
                 <img id="personal-logo"src="./assets/logo.svg" alt="Logo">
             </figure>
             <ul class="nav__link--list">
-                <li class="nav__link">
+                <li class="nav__link" onclick="toggleModal()">
                     <a href="#" class="
                     nav__link--anchor
                     link__hover-effect
@@ -34,7 +34,7 @@
                     ">About</a>
                 </li>
                 <li class="nav__link">
-                    <a href="#" class="
+                    <a href="#projects" class="
                     nav__link--anchor
                     link__hover-effect
                     link__hover-effect--black
@@ -78,9 +78,11 @@
                 </div>
             </div>
         </header>
+        <a href="#">
         <button class="mail__btn click" onclick="toggleModal()">
             <i class="fa-solid fa-envelope"></i>
         </button>
+        </a>
         <a href="#projects" class="scroll">
             <div class="scroll__icon click"></div>
         </a>
@@ -167,10 +169,10 @@
                                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, eveniet iste a minus blanditiis quidem reprehenderit, perspiciatis animi iusto exercitationem rerum sapiente corrupti, dolorum provident? Mollitia ipsum corrupti hic quasi!
                                 </p>
                                 <div class="project__description--links">
-                                    <a href="#" class="project__description--link">
+                                    <a href="#" target="_blank" class="project__description--link">
                                         <i class="fa-brands fa-github"></i>
                                     </a>
-                                    <a href="#" class="project__description--link">
+                                    <a href="#" target="_blank" class="project__description--link">
                                         <i class="fas fa-link"></i>
                                     </a>
                                 </div>
@@ -188,14 +190,14 @@
                 <img src="./assets/logo.svg" alt="Logo" class="footer__logo--img">
                 </figure>
                 <div class="footer__social--list">
-                    <a href="https://github.com/mistywynn10" class="
+                    <a href="https://github.com/mistywynn10" target="_blank" class="
                     footer__social--link
                     link__hover-effect
                     link__hover-effect--white
                     ">
                     GitHub
                     </a>
-                    <a href="https://www.linkedin.com/in/mistywynn" class="
+                    <a href="https://www.linkedin.com/in/mistywynn" target="_blank" class="
                     footer__social--link
                     link__hover-effect
                     link__hover-effect--white
@@ -209,7 +211,7 @@
                     " onclick="toggleModal()">
                     Contact
                     </a>
-                    <a href="#" class="
+                    <a href="./assets/David Bragg Resume.pdf" target="_blank" class="
                     footer__social--link
                     link__hover-effect
                     link__hover-effect--white
